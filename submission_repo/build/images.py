@@ -35,7 +35,7 @@ def describe_all(images: list[dict]) -> dict:
     Ingestion is free, but not if you redo it every time you change a
     line downstream. Key the cache by image URL.
     """
-    cache = json.loads(CACHE_PATH.read_text()) if CACHE_PATH.exists() else {}
+    cache = json.loads(CACHE_PATH.read_text(encoding="utf-8")) if CACHE_PATH.exists() else {}
 
     for im in images:
         src = im["src"]
@@ -49,7 +49,7 @@ def describe_all(images: list[dict]) -> dict:
             print("failed:", src[:70], exc)
 
     CACHE_PATH.parent.mkdir(exist_ok=True)
-    CACHE_PATH.write_text(json.dumps(cache, indent=1))
+    CACHE_PATH.write_text(json.dumps(cache, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"{len(cache)} descriptions cached")
     return cache
 
@@ -70,6 +70,6 @@ def index_descriptions(descriptions: dict, images: list[dict]) -> None:
 
 
 if __name__ == "__main__":
-    images = json.loads(Path("data/images.json").read_text())
+    images = json.loads(Path("data/images.json").read_text(encoding="utf-8"))
     descriptions = describe_all(images)
     index_descriptions(descriptions, images)

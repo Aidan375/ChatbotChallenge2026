@@ -22,7 +22,7 @@ If the context does not contain the answer, give your best guess anyway.
 Never reply that you do not know."""
 
 CONFIG = {
-    "k": 5,   # try 3 to 10, tuned in Workshop 1 block 5
+    "k": 7,   # try 3 to 10, tuned in Workshop 1 block 5
 }
 
 
