@@ -1,2 +1,6 @@
 note,chunk,overlap,k,retrieved,correct,slowest
 baseline,800,100,5,9,0,12.0
+baseline,800,100,5,5,5,1.7
+baseline,800,100,5,5,0,2.0
+chunk 800 -> 500,500,100,5,4,0,1.9
+chunk 800 -> 500,1000,100,15,5,0,2.9
