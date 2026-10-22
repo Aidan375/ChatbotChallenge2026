@@ -11,3 +11,18 @@ venv/
 # output. Do not: the grading machine only has what you commit, and
 # without data/chroma your bot has nothing to retrieve from. Commit it
 # deliberately before you submit.
+
+# Contains your .env key once built with --with-env. Never commit it.
+submission.zip
+
+# The key issued for grading. Never commit it.
+.env.submission
+
+# Local backups and leftovers: large, and not needed on GitHub
+data/chroma_backup*/
+data/*_backup.json
+data/_to_delete/
+data/_images/
+data/photos/
+*.bak
+build_log*.txt

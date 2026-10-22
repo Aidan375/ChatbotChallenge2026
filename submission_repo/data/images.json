@@ -2100,7 +2100,7 @@
   "page": "https://innoacademy.engg.hku.hk/20260925_sratalk/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/02/Mocap-Poster-2026-1024x724.png",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/09/Motion-Capture-2026-1024x724.png",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/20260930_motion/"
@@ -2128,6 +2128,90 @@
   "alt": "Your paragraph text (2)",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/20260930_motion/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/10/Alumni-Sharing-Poster-Zhao-Yazhou-1024x724.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/20261012_sharing/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2025/11/Terence-Leung-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/20261012_sharing/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/05/IA-facebook-logo-transparent-300x50.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/20261012_sharing/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/elementor/thumbs/IA-instagram-logo-transparent-2-ppewolhql65ig51uds486tfz7g8i848tybl8umv6dc.png",
+  "alt": "IA instagram logo (transparent) 2",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/20261012_sharing/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/elementor/thumbs/Your-paragraph-text-2-rf983ezy0lo79fwv2izykox0566egubfh5k6ahombk.png",
+  "alt": "Your paragraph text (2)",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/20261012_sharing/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/10/Self-Balancing-Bicycle-Workshop-Poster-724x1024.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/202610_bike/"
+ },
+ {
+  "src": "https://s.w.org/images/core/emoji/14.0.0/svg/1f4c5.svg",
+  "alt": "📅",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/202610_bike/"
+ },
+ {
+  "src": "https://s.w.org/images/core/emoji/14.0.0/svg/1f556.svg",
+  "alt": "🕖",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/202610_bike/"
+ },
+ {
+  "src": "https://s.w.org/images/core/emoji/14.0.0/svg/1f4cd.svg",
+  "alt": "📍",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/202610_bike/"
+ },
+ {
+  "src": "https://s.w.org/images/core/emoji/14.0.0/svg/1f527.svg",
+  "alt": "🔧",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/202610_bike/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2025/11/Terence-Leung-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/202610_bike/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/05/IA-facebook-logo-transparent-300x50.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/202610_bike/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/elementor/thumbs/IA-instagram-logo-transparent-2-ppewolhql65ig51uds486tfz7g8i848tybl8umv6dc.png",
+  "alt": "IA instagram logo (transparent) 2",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/202610_bike/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/elementor/thumbs/Your-paragraph-text-2-rf983ezy0lo79fwv2izykox0566egubfh5k6ahombk.png",
+  "alt": "Your paragraph text (2)",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/202610_bike/"
  },
  {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/Inno-show-poster-chunyin-au.jpeg",
@@ -2442,12 +2526,6 @@
   "page": "https://innoacademy.engg.hku.hk/aboutus/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2020/12/maychui-1-240x300.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/aboutus/"
- },
- {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/11/Professor-Ben-Kao-245x300.jpg",
   "alt": "",
   "caption": "",
@@ -2572,24 +2650,6 @@
   "alt": "",
   "caption": "Members of the Club Grenade project team in HKUEAA Annual Dinner",
   "page": "https://innoacademy.engg.hku.hk/agvrobot/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/05/IA-facebook-logo-transparent-300x50.png",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/ai-chatbot-challenge-inno-trivia-duplicate-57326/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/elementor/thumbs/IA-instagram-logo-transparent-2-ppewolhql65ig51uds486tfz7g8i848tybl8umv6dc.png",
-  "alt": "IA instagram logo (transparent) 2",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/ai-chatbot-challenge-inno-trivia-duplicate-57326/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/elementor/thumbs/Your-paragraph-text-2-rf983ezy0lo79fwv2izykox0566egubfh5k6ahombk.png",
-  "alt": "Your paragraph text (2)",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/ai-chatbot-challenge-inno-trivia-duplicate-57326/"
  },
  {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2021/10/20211027_Mindfulness-Workshop_v2.png",
@@ -4566,49 +4626,13 @@
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/47-DSC_1146-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/75-DSC_1015-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/54-DSC_1195-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/79-DSC_1046-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/22-DSC00064-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/27-DSC09800-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/86-DSC09997-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/36-DSC_1102-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/28-DSC_1276-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/44-DSC_1135-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
@@ -4620,169 +4644,13 @@
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/81-DSC_1069-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/39-DSC_1112-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/50-DSC_1178-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/42-DSC_1126-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/80-DSC_1050-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/83-DSC_1091-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/56-DSC_1198-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/78-DSC_1034-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/30-DSC00017-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/72-DSC_1267-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/76-DSC_1017-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/58-DSC_1200-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/65-DSC_1232-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/03-DSC09902-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/82-DSC_1083-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/69-DSC_1251-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/17-DSC09822-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/70-DSC_1260-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/77-DSC_1027-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/10-DSC09849-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/74-DSC_1012-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/26-DSC09794-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/06-DSC09965-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/29-DSC_1280-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/53-DSC_1183-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/63-DSC_1222-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/64-DSC_1229-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/08-DSC09838-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/35-DSC00050-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/37-DSC_1104-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
@@ -4794,31 +4662,7 @@
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/87-DSC09999-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/33-DSC00043-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/21-DSC00054-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/02-DSC09899-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/46-DSC_1144-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/74-DSC_1012-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
@@ -4836,61 +4680,13 @@
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/01-DSC09894-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/36-DSC_1102-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/75-DSC_1015-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/41-DSC_1122-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/44-DSC_1135-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/62-DSC_1221-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/61-DSC_1217-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/19-DSC09826-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/49-DSC_1174-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/37-DSC_1104-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/39-DSC_1112-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/46-DSC_1144-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
@@ -4902,13 +4698,103 @@
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/68-DSC_1245-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/87-DSC09999-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/43-DSC_1128-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/86-DSC09997-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/82-DSC_1083-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/35-DSC00050-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/41-DSC_1122-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/10-DSC09849-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/49-DSC_1174-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/56-DSC_1198-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/54-DSC_1195-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/72-DSC_1267-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/22-DSC00064-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/77-DSC_1027-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/29-DSC_1280-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/03-DSC09902-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/83-DSC_1091-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/63-DSC_1222-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/17-DSC09822-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
@@ -4920,7 +4806,181 @@
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
  },
  {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/64-DSC_1229-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/19-DSC09826-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/68-DSC_1245-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/69-DSC_1251-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/62-DSC_1221-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/58-DSC_1200-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/06-DSC09965-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/08-DSC09838-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/33-DSC00043-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/01-DSC09894-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/79-DSC_1046-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/30-DSC00017-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/53-DSC_1183-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/26-DSC09794-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/43-DSC_1128-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/47-DSC_1146-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/61-DSC_1217-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/80-DSC_1050-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/27-DSC09800-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/02-DSC09899-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/76-DSC_1017-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/42-DSC_1126-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/21-DSC00054-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/78-DSC_1034-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/81-DSC_1069-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/65-DSC_1232-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/59-DSC_1202-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/28-DSC_1276-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/70-DSC_1260-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/50-DSC_1178-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/carnival-2024/"
@@ -6814,60 +6874,6 @@
   "alt": "IA instagram logo (transparent) 2",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/dreamchamber/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/04/26993666_10155352666288597_1539375378998853522_n-150x150.jpg",
-  "alt": "",
-  "caption": "Prof. C.K.Chui (Kit)DirectorTam Wing Fan Innovation Wing",
-  "page": "https://innoacademy.engg.hku.hk/dreamlab/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/07/sign.jpg",
-  "alt": "sign",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/dreamlab/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/07/piggy.jpg",
-  "alt": "piggy",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/dreamlab/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/elementor/thumbs/key-2114313_1920-owy3wk27geokoymcwi055mnobjtdaq6hslwg40ag3k.jpg",
-  "alt": "key safe",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/dreamlab/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/07/volunteer-small-1024x683.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/dreamlab/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/07/tools-1024x981.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/dreamlab/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/07/handpower-tools-300x200.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/dreamlab/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/07/3dprinter-300x199.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/dreamlab/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2019/07/storage-blur.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/dreamlab/"
  },
  {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2020/01/Drift-Bottle-Poster-1.jpg",
@@ -10986,49 +10992,7 @@
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/86-DSC09997-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/76-DSC_1017-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/53-DSC_1183-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/39-DSC_1112-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/33-DSC00043-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/79-DSC_1046-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/63-DSC_1222-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/83-DSC_1091-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/54-DSC_1195-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
@@ -11040,37 +11004,25 @@
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/58-DSC_1200-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/69-DSC_1251-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/08-DSC09838-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/49-DSC_1174-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/44-DSC_1135-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/63-DSC_1222-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/87-DSC09999-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/53-DSC_1183-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/33-DSC00043-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
@@ -11082,61 +11034,13 @@
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/80-DSC_1050-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/41-DSC_1122-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/47-DSC_1146-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/61-DSC_1217-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/19-DSC09826-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/30-DSC00017-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/60-DSC_1212-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/74-DSC_1012-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/56-DSC_1198-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/46-DSC_1144-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/62-DSC_1221-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/76-DSC_1017-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
@@ -11148,13 +11052,7 @@
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/68-DSC_1245-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/78-DSC_1034-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/30-DSC00017-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
@@ -11166,139 +11064,31 @@
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/64-DSC_1229-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/54-DSC_1195-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/01-DSC09894-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/82-DSC_1083-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/17-DSC09822-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/28-DSC_1276-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/26-DSC09794-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/35-DSC00050-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/27-DSC09800-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/77-DSC_1027-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/70-DSC_1260-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/21-DSC00054-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/06-DSC09965-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/36-DSC_1102-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/22-DSC00064-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/44-DSC_1135-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/59-DSC_1202-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/78-DSC_1034-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/72-DSC_1267-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/87-DSC09999-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/29-DSC_1280-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/75-DSC_1015-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/45-DSC_1140-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/10-DSC09849-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/81-DSC_1069-768x512.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/41-DSC_1122-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/80-DSC_1050-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
@@ -11310,13 +11100,25 @@
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/02-DSC09899-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/42-DSC_1126-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/73-DSC_1274-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/75-DSC_1015-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/22-DSC00064-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/08-DSC09838-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
@@ -11328,7 +11130,79 @@
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/21-DSC00054-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/72-DSC_1267-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/28-DSC_1276-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/06-DSC09965-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/03-DSC09902-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/83-DSC_1091-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/69-DSC_1251-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/82-DSC_1083-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/58-DSC_1200-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/60-DSC_1212-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/27-DSC09800-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/01-DSC09894-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/68-DSC_1245-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
@@ -11340,7 +11214,139 @@
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/42-DSC_1126-768x512.jpg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/47-DSC_1146-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/17-DSC09822-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/59-DSC_1202-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/19-DSC09826-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/79-DSC_1046-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/73-DSC_1274-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/56-DSC_1198-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/81-DSC_1069-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/35-DSC00050-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/62-DSC_1221-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/29-DSC_1280-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/26-DSC09794-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/10-DSC09849-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/45-DSC_1140-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/70-DSC_1260-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/02-DSC09899-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/39-DSC_1112-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/74-DSC_1012-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/61-DSC_1217-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/64-DSC_1229-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/86-DSC09997-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/46-DSC_1144-768x512.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2024/12/77-DSC_1027-768x512.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/inno-wing-carnival-2025/"
@@ -21966,6 +21972,12 @@
   "page": "https://innoacademy.engg.hku.hk/sewage-monitoring/"
  },
  {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/10/Alumni-Sharing-Poster-Zhao-Yazhou-1024x724.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/sharing/"
+ },
+ {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/09/Untitled-design-9-724x1024.png",
   "alt": "",
   "caption": "",
@@ -22374,19 +22386,31 @@
   "page": "https://innoacademy.engg.hku.hk/sic/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2023/02/IMG_1885-300x225.jpg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/sic/"
- },
- {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2023/02/IMG_0818-300x225.jpg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/sic/"
  },
  {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2023/02/IMG_1885-300x225.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/sic/"
+ },
+ {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2023/02/IMG_0816-300x225.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/sic/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/08/WhatsApp-Image-2021-11-02-at-8.31.13-PM-1-300x135.jpeg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/sic/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/08/WhatsApp-Image-2021-11-02-at-8.31.12-PM-2-300x135.jpeg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/sic/"
@@ -22404,13 +22428,7 @@
   "page": "https://innoacademy.engg.hku.hk/sic/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/08/WhatsApp-Image-2021-11-02-at-8.31.13-PM-1-300x135.jpeg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/sic/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/08/WhatsApp-Image-2021-11-02-at-8.31.10-PM-300x135.jpeg",
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/08/WhatsApp-Image-2021-11-02-at-8.31.15-PM-1-300x135.jpeg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/sic/"
@@ -22422,19 +22440,13 @@
   "page": "https://innoacademy.engg.hku.hk/sic/"
  },
  {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/08/WhatsApp-Image-2021-11-02-at-8.31.10-PM-300x135.jpeg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/sic/"
+ },
+ {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/08/WhatsApp-Image-2021-11-02-at-8.31.13-PM-300x135.jpeg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/sic/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/08/WhatsApp-Image-2021-11-02-at-8.31.15-PM-1-300x135.jpeg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/sic/"
- },
- {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2022/08/WhatsApp-Image-2021-11-02-at-8.31.12-PM-2-300x135.jpeg",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/sic/"
@@ -23990,6 +24002,12 @@
  {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/09/group_photo.webp",
   "alt": "SRA Team",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/sra-projects/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/09/sra-support-community.jpg",
+  "alt": "WhatsApp group QR code",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/sra-projects/"
  },
@@ -26262,19 +26280,31 @@
   "page": "https://innoacademy.engg.hku.hk/woodenmask2/"
  },
  {
-  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-18-at-11.55.43-724x1024.jpeg",
-  "alt": "",
-  "caption": "",
-  "page": "https://innoacademy.engg.hku.hk/workshop/"
- },
- {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/09/Inno-WING-AI-Trivia-2026-594-x-420-mm-1-1024x724.png",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/workshop/"
  },
  {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/09/Motion-Capture-2026-1024x724.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/workshop/"
+ },
+ {
   "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/09/1-724x1024.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/workshop/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-18-at-11.55.43-724x1024.jpeg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innoacademy.engg.hku.hk/workshop/"
+ },
+ {
+  "src": "https://innoacademy.engg.hku.hk/wp-content/uploads/2026/09/HKUROV-Workshop-Poster-724x1024.png",
   "alt": "",
   "caption": "",
   "page": "https://innoacademy.engg.hku.hk/workshop/"
@@ -33018,6 +33048,72 @@
   "page": "https://innowings.engg.hku.hk/connected-vehicle/"
  },
  {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/07/Post-event-Poster-of-Professor-Taeghwan-Hyeo-on-August-10.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/cooling/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/07/figure-1-768x615.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/cooling/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/07/figure-2-768x611.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/cooling/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/07/figure-3.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/cooling/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/06/dccg-hero-02-data-city-768x432.png",
+  "alt": "dccg-hero-02-data-city",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/cooling/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/06/dccg-hero-03-iceberg-768x432.png",
+  "alt": "dccg-hero-03-iceberg",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/cooling/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/06/DII-768x512.jpg",
+  "alt": "DII",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/cooling/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/10/hku-300x300.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/cooling/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/10/non-300x300.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/cooling/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/10/LHe_recent-photo——new-732x1024.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/cooling/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/10/TechTalk-by-Professor-Li-He-on-November-3rd-2-2.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/cooling/"
+ },
+ {
   "src": "https://innowings.engg.hku.hk/wp-content/uploads/2023/07/Corrie-Chow.jpg",
   "alt": "",
   "caption": "",
@@ -35260,6 +35356,72 @@
   "alt": "",
   "caption": "",
   "page": "https://innowings.engg.hku.hk/find-a-seat/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/09/TechTalk-by-Professor-Sili-Deng-on-October-15th.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/flames/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/07/figure-1-768x615.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/flames/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/07/figure-2-768x611.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/flames/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/07/figure-3.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/flames/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/06/dccg-hero-02-data-city-768x432.png",
+  "alt": "dccg-hero-02-data-city",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/flames/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/06/dccg-hero-03-iceberg-768x432.png",
+  "alt": "dccg-hero-03-iceberg",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/flames/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/06/DII-768x512.jpg",
+  "alt": "DII",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/flames/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/09/hku-300x300.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/flames/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/09/non-hku-300x300.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/flames/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/09/Deng-Sili-2058.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/flames/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/09/TechTalk-by-Professor-Sili-Deng-on-October-15th-1.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/flames/"
  },
  {
   "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/02/Picture1.png",
@@ -39132,6 +39294,30 @@
   "page": "https://innowings.engg.hku.hk/innowing1/special/"
  },
  {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/10/vlcsnap-2026-10-21-11h29m58s961.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/innowing1/venues/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/10/vlcsnap-2026-10-21-11h29m34s084.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/innowing1/venues/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/10/vlcsnap-2026-10-21-11h28m54s358.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/innowing1/venues/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2020/10/digital-learning-studio.jpg",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/innowing1/venues/"
+ },
+ {
   "src": "https://innowings.engg.hku.hk/wp-content/uploads/2022/01/opening-1-scaled.jpg",
   "alt": "Innowing Opening Ceremony Gallery",
   "caption": "",
@@ -42214,6 +42400,54 @@
   "alt": "",
   "caption": "Key parameters of ultrahigh NF membranes",
   "page": "https://innowings.engg.hku.hk/nf-ro-membrane/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/09/图片2-768x481.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/northernmetropolis/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/09/图片3-768x377.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/northernmetropolis/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/09/图片4-768x431.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/northernmetropolis/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/09/图片5-768x717.png",
+  "alt": "图片5",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/northernmetropolis/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/09/qr-code-FONG-Hok-Shing-Michael-300x300.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/northernmetropolis/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2024/11/non-300x300.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/northernmetropolis/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/09/图片6.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/northernmetropolis/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/09/HKAE-TechTalk-by-Professor-Ir-FONG-Hok-Shing-Michael-on-October-20-1-1-1024x536.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/northernmetropolis/"
  },
  {
   "src": "https://innowings.engg.hku.hk/wp-content/uploads/2023/08/QR-code-for-Nestspace-Application-Form-2024-2025.png",
@@ -45580,6 +45814,60 @@
   "alt": "",
   "caption": "",
   "page": "https://innowings.engg.hku.hk/robotics/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/02/Picture1.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/rock-failure-process/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/02/Picture2.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/rock-failure-process/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/02/Picture3.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/rock-failure-process/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2025/09/Schlieren-and-Highspeed_Kamera-768x576.png",
+  "alt": "Schlieren and Highspeed_Kamera",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/rock-failure-process/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2025/09/Tomographic-BOS-768x592.jpg",
+  "alt": "Tomographic BOS",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/rock-failure-process/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/10/hku-1-300x300.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/rock-failure-process/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/10/non-1-300x300.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/rock-failure-process/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/10/图片7.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/rock-failure-process/"
+ },
+ {
+  "src": "https://innowings.engg.hku.hk/wp-content/uploads/2026/10/TechTalk-by-Professor-Chunan-Tang-on-November-5-1-1-1024x536.png",
+  "alt": "",
+  "caption": "",
+  "page": "https://innowings.engg.hku.hk/rock-failure-process/"
  },
  {
   "src": "https://innowings.engg.hku.hk/wp-content/uploads/2023/02/ASC-768x1152.jpg",

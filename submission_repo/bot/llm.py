@@ -37,7 +37,9 @@ EMBED_URL  = f"{EMBED_BASE}/openai/deployments/{EMBED_DEPLOYMENT}/embeddings?api
 
 # .strip() matters: pasting a key into a shell or .env often picks up a
 # trailing newline, and that alone produces a 401.
-_KEY = os.environ.get("AZURE_OPENAI_KEY", "").strip()
+# The rules slide calls it AZURE_OPENAI_API_KEY; this file always used
+# AZURE_OPENAI_KEY. Accept either, so the grader's name works whichever it is.
+_KEY = (os.environ.get("AZURE_OPENAI_KEY") or os.environ.get("AZURE_OPENAI_API_KEY") or "").strip()
 
 # Clients are built lazily, on first real use, not here at import time.
 # The openai SDK itself raises if api_key is empty, and this module is
@@ -100,7 +102,8 @@ def describe_image(image_path: str, prompt: str) -> str:
     mime = mimetypes.guess_type(path.name)[0] or "image/jpeg"
     b64 = base64.b64encode(path.read_bytes()).decode()
     r = _client(VISION_URL).chat.completions.create(
-        model=VISION_DEPLOYMENT, max_tokens=800,
+        model=VISION_DEPLOYMENT,   # no max_tokens: gpt-5-mini "thinks" first and that counts
+        # against the cap, so a cap left blank replies. Build-time only.
         messages=[{"role": "user", "content": [
             {"type": "text", "text": prompt},
             {"type": "image_url", "image_url": {"url": f"data:{mime};base64,{b64}"}},

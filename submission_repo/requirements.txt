@@ -2,13 +2,10 @@
 # another one: it raises KeyError: '_type' when reading the stored config.
 # If you hit that, delete data/chroma and sample_chroma and rebuild.
 
-openai>=1.60
+openai==3.14.0
 chromadb==1.5.9
-beautifulsoup4>=4.12
-requests>=2.31
-python-dotenv>=1.0
-jupyter>=1.0
-google-auth>=2.23
-google-auth-oauthlib>=1.1
-google-auth-httplib2>=0.1
-google-api-python-client>=2.100
+beautifulsoup4==4.15.0
+requests==2.34.2
+python-dotenv==1.2.3
+pillow==12.3.0
+pillow-heif==1.8.1      # .heic photos from iPhones; build/images.py

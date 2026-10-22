@@ -8,3 +8,14 @@ __pycache__/
 data/chroma/
 Labs/data/chroma/
 submission_repo/data/chroma/
+
+# throwaway image crops made during lab 4
+Labs/data/tiles/
+Labs/data/upright/
+
+# downloaded copies of website images (re-downloaded by build/images.py)
+submission_repo/data/_images/
+submission_repo/_backup_before_claude/
+
+# stray copy from running the scraper in the wrong folder
+/data/
