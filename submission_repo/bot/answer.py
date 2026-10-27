@@ -20,11 +20,14 @@ How an answer is made
    parallel and used if the main path errors or runs out of time.
    No live web search anywhere: everything comes from data/chroma.
 """
+import json
 import math
 import re
+import sys
 import threading
 import time
 from collections import Counter, defaultdict
+from pathlib import Path
 
 from bot.llm import chat
 from bot.store import get_store, query
@@ -37,10 +40,10 @@ CONFIG = {
     "neighbours": 5,    # add the chunks either side of this many top text hits
     "per_page": 3,      # at most this many search hits from any one page
     "max_chars": 24000, # cap on context size; bigger prompts are slower
-    "deadline": 18,     # seconds; the limit is 30 per question, including start-up
+    "deadline": 20,     # seconds; the limit is 30 per question, including start-up
     "k_count": 20,      # chunks from each search for "how many" questions
-    "count_chars": 30000,  # context cap for the counting path
-    "count_tokens": 900,   # room for the model to list the items before the number
+    "count_chars": 40000,  # context cap for the counting path
+    "count_tokens": 1500,  # room for the model to list the items before the number
     "model": None,      # None = gpt-4o-mini (bot/llm.py default)
 }
 
@@ -57,6 +60,9 @@ How to answer:
   even if the context mentions a related term.
 - Pages often mention several years or editions. Use the one the question asks
   about, and read every chunk before deciding.
+- A few pages appear twice: as they are now, and as an "older version of the
+  page, as of 24 Sep 2026". Use the current version, unless the question asks
+  about a year, round or edition that only the older version mentions.
 - Reply with the answer only: no sentence around it, no explanation, no
   preamble, no source.
 - How many: reply with a number in digits and nothing else.
@@ -135,6 +141,14 @@ class KeywordIndex:
     def item(self, i: int, score: float = 0.0) -> dict:
         return {"text": self.docs[i], "metadata": self.metas[i], "distance": -score}
 
+    def zone_notes(self, question: str) -> list[dict]:
+        """Every team-notes chunk for a zone the question names. Notes are few
+        and short, and hold facts counted in person, so they always go in."""
+        q = question.lower()
+        return [self.item(i) for i, m in enumerate(self.metas)
+                if m.get("kind") == "note" and m.get("zone")
+                and m["zone"].lower() in q]
+
     def main_chunk(self, meta: dict):
         """The first chunk of a described picture: the full description, which
         holds the transcribed text. A close-up chunk alone can miss it."""
@@ -173,8 +187,16 @@ def keyword_index() -> KeywordIndex:
     with _keyword_lock:
         if _keyword is None:
             got = get_store().get(include=["documents", "metadatas"])
-            keep = [(d, m) for d, m in zip(got["documents"] or [], got["metadatas"] or [])
-                    if not skipped(m)]
+            pairs = list(zip(got["documents"] or [], got["metadatas"] or []))
+            # Descriptions that could not be embedded are still searchable by keyword.
+            extra = Path("data/keyword_only.json")
+            if extra.exists():
+                try:
+                    pairs += [(r["text"], r["metadata"])
+                              for r in json.loads(extra.read_text(encoding="utf-8"))]
+                except Exception:                       # noqa: BLE001
+                    pass
+            keep = [(d, m) for d, m in pairs if not skipped(m)]
             _keyword = KeywordIndex([d for d, _ in keep], [m for _, m in keep])
     return _keyword
 
@@ -186,9 +208,23 @@ def retrieve(question: str, k: int = None, where: dict = None) -> list[dict]:
     """Meaning search only. Kept separate so my_test.py can check whether
     the right page was fetched at all (a retrieval failure) as opposed to
     fetched but answered wrongly (a prompt failure)."""
+    global _vector_ok
     k = k or CONFIG["k"]
-    hits = query(get_store(), question, k=k + 6, where=where)   # spare room for skipped pages
+    if not _vector_ok:
+        return []
+    try:
+        hits = query(get_store(), question, k=k + 6, where=where)   # spare room for skipped pages
+    except Exception as exc:                            # noqa: BLE001
+        # Meaning search needs an embedding call. If that fails (for example
+        # the embedding limit is used up), carry on with keyword search only.
+        _vector_ok = False
+        print(f"[warning] meaning search unavailable, keyword search only: {str(exc)[:150]}",
+              file=sys.stderr)
+        return []
     return [c for c in hits if not skipped(c["metadata"])][:k]
+
+
+_vector_ok = True
 
 
 def key(c: dict) -> str:
@@ -258,6 +294,8 @@ def retrieve_mixed(question: str) -> list[dict]:
                 picked_images.append(c2)
     image_chars = sum(len(c["text"]) for c in picked_images)
 
+    for c in kw.zone_notes(question):                 # team notes first, never trimmed
+        add(c)
     for c in fused:
         add(c)
         if key(c) in top_text:
@@ -427,7 +465,7 @@ context items below (website text and descriptions of images).
 Work in two steps.
 1. Under the heading ITEMS, list every distinct thing in the context that the
    question is counting, one per line, as:
-   - <what it is> | <how many of it, if the context says; otherwise 1> | [N]
+   - <what it is, in at most 8 words> | <how many of it, if the context says; otherwise 1> | [N]
    where [N] is the context item it came from. Count the same thing once even
    when several context items mention it (the same poster on two pages, the
    same machine described twice). Leave out anything that does not meet every
@@ -445,27 +483,27 @@ def filtered_posters(question: str) -> list[dict]:
     """Every described poster matching the question's year, one chunk per
     picture (its main description, shortened). Vector search alone returns
     the k nearest, which caps the count at k; a metadata filter returns all."""
-    conds = [{"kind": "image"}, {"type": "poster"}]
     y = YEAR.search(question)
-    if y:
-        conds.append({"year": int(y.group(1))})
-    try:
-        got = get_store().get(where={"$and": conds}, include=["documents", "metadatas"])
-    except Exception:                                   # noqa: BLE001
-        return []
+    year = int(y.group(1)) if y else None
+    kw = keyword_index()      # every chunk, including keyword-only descriptions
     best = {}
-    for d, m in zip(got.get("documents") or [], got.get("metadatas") or []):
-        if skipped(m):
+    for d, m in zip(kw.docs, kw.metas):
+        if m.get("kind") != "image" or m.get("type") != "poster":
+            continue
+        if year is not None and m.get("year") != year:
             continue
         pic = m.get("image") or d[:80]
         if pic not in best or (m.get("position") or 0) < (best[pic]["metadata"].get("position") or 0):
-            best[pic] = {"text": d[:700], "metadata": m, "distance": 0.0}
+            # Short entries, so every poster fits: the page it is on and the
+            # first lines of its description say what it is.
+            best[pic] = {"text": " ".join(d[:350].split()), "metadata": m, "distance": 0.0}
     return list(best.values())
 
 
 def retrieve_for_count(question: str) -> list[dict]:
     kw = keyword_index()
-    found = filtered_posters(question) if POSTER.search(question) else []
+    found = kw.zone_notes(question)
+    found += filtered_posters(question) if POSTER.search(question) else []
     found += retrieve(question, k=CONFIG["k_count"])
     found += kw.search(question, CONFIG["k_count"])
     for c in kw.search(question, 3):                  # keep lists that run across chunks

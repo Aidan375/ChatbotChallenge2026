@@ -97,10 +97,30 @@ def build_index(pages: list[dict], reset: bool = True):
     add_to_store(store, texts, metas, ids=ids)
     print(f"indexed {len(texts)} text chunks from {len(pages) - copies} pages "
           f"({copies} duplicate pages skipped)")
+    from build.notes import index_notes   # the wipe above removed the team notes too
+    index_notes(store)
     print("next: python -m build.images   (puts the image chunks back)")
     return store
 
 
+OLDER_SCRAPE = Path("data/pages_2026-09-24.json")
+
+
+def older_copies(pages: list[dict]) -> list[dict]:
+    """Pages that changed or disappeared since the 24 Sep scrape, as they were
+    then. Questions may have been written against the older text (the 2025-26
+    funding deadline was replaced by the 2026-27 one), so keep both versions."""
+    if not OLDER_SCRAPE.exists():
+        return []
+    now = {p["url"]: " ".join(p["text"].split()) for p in pages}
+    out = []
+    for p in json.loads(OLDER_SCRAPE.read_text(encoding="utf-8")):
+        if now.get(p["url"]) != " ".join(p["text"].split()):
+            out.append(dict(p, title=f'{p.get("title", "")} (older version of the page, as of 24 Sep 2026)'))
+    print(f"{len(out)} older page versions kept from {OLDER_SCRAPE}")
+    return out
+
+
 if __name__ == "__main__":
     pages = json.loads(Path("data/pages.json").read_text(encoding="utf-8"))
-    build_index(pages)
+    build_index(pages + older_copies(pages))

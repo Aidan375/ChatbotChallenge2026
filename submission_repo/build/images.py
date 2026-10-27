@@ -34,6 +34,10 @@ from urllib.parse import urlparse
 import requests
 from PIL import Image, ImageOps
 
+# A few posters on the site are huge (one is 243 million pixels). Pillow refuses
+# those by default as a safety check; these come from the HKU sites, so allow them.
+Image.MAX_IMAGE_PIXELS = None
+
 # iPhone photos are often .heic, which Pillow cannot open by itself.
 # pillow-heif teaches it how. If it is not installed, .heic photos are
 # skipped with a message instead of crashing the whole run.
@@ -279,6 +283,58 @@ def prepare_local(path: Path) -> Path | None:
     return dst
 
 
+# --------------------------------------------------------------------
+# Quick mode (--quick): a short description for lower-value website images,
+# at a fraction of the usage. Smaller picture, short reply, minimal thinking.
+# --------------------------------------------------------------------
+QUICK_EDGE = 1024
+QUICK_PROMPT = """Describe this image from the HKU Tam Wing Fan Innovation Wing websites
+in a few short lines, for search. Report only what is visible; no hedging.
+
+1. WHAT IT IS: one line, e.g. poster, photograph, screenshot, logo, and its
+   subject (for a poster: the kind of event, e.g. workshop, talk, competition).
+2. TEXT: copy exactly the title, headings, dates, times, venue, names of
+   people, teams and organisations. Skip long body text and small print.
+3. COLOURS: the overall colour scheme in one line.
+4. PEOPLE AND OBJECTS: one line with the main things shown, with counts."""
+
+_effort_ok = True     # becomes False if the gateway rejects reasoning_effort
+
+
+def quick_copy(path: Path) -> Path:
+    q = path.with_name(path.stem + "_q.jpg")
+    if not q.exists():
+        im = Image.open(path)
+        im.thumbnail((QUICK_EDGE, QUICK_EDGE))
+        im.convert("RGB").save(q, quality=85)
+    return q
+
+
+def describe_quick(path: Path) -> str:
+    """Like describe_image, but asks the model to think as little as possible.
+    Falls back to a normal call if the gateway does not accept that setting."""
+    global _effort_ok
+    import base64
+    from bot import llm
+    b64 = base64.b64encode(path.read_bytes()).decode()
+    kw = dict(model=llm.VISION_DEPLOYMENT, messages=[{"role": "user", "content": [
+        {"type": "text", "text": QUICK_PROMPT},
+        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}"}}]}])
+    client = llm._client(llm.VISION_URL)
+    if _effort_ok:
+        try:
+            r = client.chat.completions.create(reasoning_effort="minimal", **kw)
+            return r.choices[0].message.content or ""
+        except Exception as exc:                          # noqa: BLE001
+            msg = str(exc).lower()
+            if "quota" in msg or "403" in msg or "429" in msg:
+                raise
+            print("  note: gateway rejected reasoning_effort, using normal calls:", str(exc)[:120])
+            _effort_ok = False
+    r = client.chat.completions.create(**kw)
+    return r.choices[0].message.content or ""
+
+
 def describe_one(im: dict) -> tuple[str, str] | None:
     src = im["src"]
     zone = im.get("zone")
@@ -290,6 +346,13 @@ def describe_one(im: dict) -> tuple[str, str] | None:
         prompt = (f"This photo was taken inside the Inno Wing, in the zone signed "
                   f'"{zone}". Begin your description with: LOCATION: {zone}\n\n'
                   + DESCRIPTION_PROMPT)
+    if im.get("_quick"):
+        try:
+            text = describe_quick(quick_copy(path))
+        except Exception as exc:                          # noqa: BLE001
+            print("  describe failed:", src[:70], exc)
+            return None
+        return (src, text) if text.strip() else None
     try:
         parts = [describe_image(str(path), prompt)]
         if not parts[0].strip():
@@ -354,7 +417,7 @@ def run_pool(fn, todo: list[dict], store: dict, path: Path, label: str) -> None:
 colours: dict = {}
 
 
-def describe_all(images: list[dict], budget: int) -> dict:
+def describe_all(images: list[dict], budget: int, quick: bool = False) -> dict:
     """Order matters, because the daily limit can run out part-way:
     1. your own photos (full description, close-ups, colours)
     2. the colour pass for images described before colours were asked for
@@ -365,7 +428,8 @@ def describe_all(images: list[dict], budget: int) -> dict:
     photos = [im for im in own_photos() if im["src"] not in cache]
     ranked = shortlist(images, budget)
     for rank, im in enumerate(ranked):
-        im["_tiles"] = rank < TILE_TOP_N
+        im["_tiles"] = rank < TILE_TOP_N and not quick
+        im["_quick"] = quick
     by_src = {im["src"]: im for im in own_photos() + ranked}
     by_src.update({im["src"]: im for im in images if im["src"] not in by_src})
     need_colour = [by_src.get(src) or {"src": src} for src in cache
@@ -392,13 +456,21 @@ def own_photos() -> list[dict]:
     """Records for every photo in data/photos/<zone>/."""
     out = []
     if PHOTO_DIR.exists():
-        for f in sorted(PHOTO_DIR.rglob("*")):
+        # Named zones first, corridors last: the daily limit may run out part-way.
+        minor = ("hallway", "stairs", "outdoors")
+        files = sorted(PHOTO_DIR.rglob("*"),
+                       key=lambda f: (any(w in f.parent.name.lower() for w in minor), str(f)))
+        for f in files:
             if f.suffix.lower() == ".heic" and not HEIC_OK:
                 print("  skipped", f.name, "- run: pip install pillow-heif")
                 continue
             if f.suffix.lower() in {".jpg", ".jpeg", ".png", ".heic", ".webp"}:
                 zone = f.parent.name if f.parent != PHOTO_DIR else ""
+                # Corridor photos get one call, not five: there are many of
+                # them, and close-ups matter most for signs inside the zones.
+                is_minor = any(w in f.parent.name.lower() for w in minor)
                 out.append({"src": "photo:" + f.relative_to(PHOTO_DIR).as_posix(),
+                            "_tiles": not is_minor,
                             "local": str(f), "zone": zone, "alt": "", "caption": "",
                             "page": "photo taken in the Inno Wing"})
     if out:
@@ -525,12 +597,14 @@ def index_descriptions(descriptions: dict, images: list[dict]) -> None:
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--budget", type=int, default=IMAGE_BUDGET)
+    ap.add_argument("--quick", action="store_true",
+                    help="short, cheap descriptions for new website images")
     ap.add_argument("--alt-only", action="store_true",
                     help="skip vision calls, index alt/caption text only")
     args = ap.parse_args()
 
     images = json.loads(Path("data/images.json").read_text(encoding="utf-8"))
-    descriptions = {} if args.alt_only else describe_all(images, args.budget)
+    descriptions = {} if args.alt_only else describe_all(images, args.budget, args.quick)
     if args.alt_only and CACHE_PATH.exists():
         descriptions = json.loads(CACHE_PATH.read_text(encoding="utf-8"))
     index_descriptions(descriptions, images)

@@ -26,3 +26,8 @@ data/_images/
 data/photos/
 *.bak
 build_log*.txt
+data/_restore/
+data/chroma_damaged_*/
+# backups of .env hold old keys
+.env.*
+!.env.example
