@@ -3,3 +3,5 @@ There are 56 lockers at the front of Makerspace A, in two rows. Odd-numbered loc
 There are 15 tall lockers on the right side of Makerspace A, in a single row. They are labelled with letters in alphabetical order from A to O, running from right to left.
 
 There are 9 wooden tables in Makerspace A, together with 65 wooden stools.
+
+There are 2 overhead projectors and 2 projector screens in Makerspace A.

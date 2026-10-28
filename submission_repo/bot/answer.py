@@ -20,6 +20,9 @@ How an answer is made
    parallel and used if the main path errors or runs out of time.
    No live web search anywhere: everything comes from data/chroma.
 """
+import time as _time
+_T0 = _time.time()   # as early as possible: the hard limit counts from here
+
 import json
 import math
 import re
@@ -41,6 +44,8 @@ CONFIG = {
     "per_page": 3,      # at most this many search hits from any one page
     "max_chars": 24000, # cap on context size; bigger prompts are slower
     "deadline": 20,     # seconds; the limit is 30 per question, including start-up
+    "hard_limit": 26.5, # seconds since this file started loading: always answer by then.
+                        # Python start-up before it and exit after it take ~1-2 s more.
     "k_count": 20,      # chunks from each search for "how many" questions
     "count_chars": 40000,  # context cap for the counting path
     "count_tokens": 1500,  # room for the model to list the items before the number
@@ -52,6 +57,11 @@ Wing (Inno Wing) and the HKU Innovation Academy, using context taken from their
 websites and from descriptions of images on those websites.
 
 How to answer:
+- Items titled "Team notes" were checked in person inside the building and are
+  the most reliable source. If a team note is about the same place the question
+  asks about and answers it, use it, even where image descriptions or website
+  text say something different. Never use a note about one place (for example
+  Makerspace A) to answer about another (for example Makerspace B).
 - If the context contains the answer, use it. Where the context disagrees with
   what you think you know, the context is correct.
 - If the context does not contain it, answer from your own general knowledge.
@@ -144,10 +154,11 @@ class KeywordIndex:
     def zone_notes(self, question: str) -> list[dict]:
         """Every team-notes chunk for a zone the question names. Notes are few
         and short, and hold facts counted in person, so they always go in."""
-        q = question.lower()
+        # Whole-name match: "Makerspace A" must not match "makerspace area".
+        q = " ".join(question.lower().split())
         return [self.item(i) for i, m in enumerate(self.metas)
                 if m.get("kind") == "note" and m.get("zone")
-                and m["zone"].lower() in q]
+                and re.search(r"\b" + re.escape(" ".join(m["zone"].lower().split())) + r"\b", q)]
 
     def main_chunk(self, meta: dict):
         """The first chunk of a described picture: the full description, which
@@ -471,8 +482,17 @@ Work in two steps.
    same machine described twice). Leave out anything that does not meet every
    condition in the question (year, type, place).
 2. The last line must be exactly: ANSWER: <the total, in digits>
-If a context item states the total directly and it is larger than your list,
-use the stated total. Never answer 0 unless nothing at all matches."""
+Rules, in this order:
+- Items titled "Team notes" were counted in person and are the most reliable.
+  If a team note is about the same place the question asks about and gives
+  the number asked for, answer with that number, even if photo descriptions
+  suggest another. Never use a note about one place to count another place.
+- Several photos often show the same room from different angles. Never add
+  up counts from different photos of the same place: the same things appear
+  in more than one photo.
+- Otherwise, if a context item states the total directly and it is larger
+  than your list, use the stated total. Never answer 0 unless nothing at all
+  matches."""
 
 YEAR = re.compile(r"\b(20\d\d)\b")
 POSTER = re.compile(r"\bposters?\b", re.I)
@@ -530,6 +550,29 @@ def answer_by_counting(question: str):
     return found[-1].replace(",", "") if found else None
 
 
+# --------------------------------------------------------------------------
+# Team notes first: facts the team checked in person beat everything else
+# --------------------------------------------------------------------------
+NOTES_PROMPT = """You answer one trivia question using ONLY the team notes below. They
+were checked in person inside the building. Only use a note that is about the
+same place the question asks about.
+If the notes clearly answer the question, reply with the answer only: no
+sentence, no explanation; for "how many", digits only.
+If the notes do not answer it, reply exactly: NONE"""
+
+
+def answer_from_notes(question: str):
+    """The answer from the team notes for a zone the question names, or None."""
+    notes = keyword_index().zone_notes(question)
+    if not notes:
+        return None
+    text = "\n\n".join(c["text"] for c in notes)
+    reply = (ask_model(NOTES_PROMPT, f"Team notes:\n{text}\n\nQuestion: {question}") or "").strip()
+    if not reply or reply.upper().startswith("NONE"):
+        return None
+    return tidy(reply, question) or None
+
+
 def closed_book(question: str) -> str:
     return tidy(ask_model(CLOSED_BOOK_PROMPT, question), question)
 
@@ -549,23 +592,40 @@ def in_background(fn, *args) -> dict:
     return box
 
 
+_first_question = True
+
+
 def rag_answer(question: str) -> str:
     """One question in, one answer out. 30 second budget."""
+    global _first_question
     started = time.time()
+    # The first question also pays for start-up, so its clock starts when this
+    # file loaded. Later questions in the same run start their own clock.
+    t0 = _T0 if _first_question else started
+    _first_question = False
+
+    def left(margin: float = 0.0) -> float:
+        """Seconds still allowed before the hard limit, minus a margin."""
+        return max(0.0, CONFIG["hard_limit"] - (time.time() - t0) - margin)
+
+    notes = in_background(answer_from_notes, question)  # team notes win if they answer
     backup = in_background(closed_book, question)       # safety net
     main = in_background(answer_with_context, question)
     # "How many" questions also go down the counting path, in parallel, so
     # the normal answer is still there if counting is slow or fails.
     count = in_background(answer_by_counting, question) if COUNT_Q.search(question) else None
 
-    main["thread"].join(CONFIG["deadline"])
+    notes["thread"].join(min(10, left(3)))
+    if notes.get("value"):
+        return " ".join(notes["value"].split())
+
+    main["thread"].join(min(max(0.1, CONFIG["deadline"] - (time.time() - started)), left(1.5)))
     answer = main.get("value") or ""
     if count is not None:
-        count["thread"].join(max(0.1, CONFIG["deadline"] - (time.time() - started)))
+        count["thread"].join(min(max(0.1, CONFIG["deadline"] - (time.time() - started)), left(1)))
         answer = count.get("value") or answer
     if not answer:
-        left = max(0.5, CONFIG["deadline"] + 2 - (time.time() - started))
-        backup["thread"].join(left)
+        backup["thread"].join(min(max(0.5, CONFIG["deadline"] + 2 - (time.time() - started)), left(0.2)))
         answer = backup.get("value") or ""
     return " ".join(answer.split())                      # never more than one line
 
